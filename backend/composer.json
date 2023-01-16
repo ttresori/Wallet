@@ -7,6 +7,7 @@
     "require": {
         "php": "^8.0",
         "laravel/lumen-framework": "^9.0",
+        "mll-lab/laravel-graphiql": "^1.0",
         "nuwave/lighthouse": "^5.70"
     },
     "require-dev": {
