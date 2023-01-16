@@ -96,6 +96,8 @@ $app->configure('lighthouse');
 // $app->register(App\Providers\AuthServiceProvider::class);
 // $app->register(App\Providers\EventServiceProvider::class);
 $app->register(\Nuwave\Lighthouse\LighthouseServiceProvider::class);
+$app->register(\Nuwave\Lighthouse\Pagination\PaginationServiceProvider::class);
+$app->register(\Nuwave\Lighthouse\Validation\ValidationServiceProvider::class);
 
 /*
 |--------------------------------------------------------------------------
